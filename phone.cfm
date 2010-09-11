@@ -1,0 +1,1 @@
+<cfoutput>#RandRange(1,9)#<cfloop from="1" to="9" index="i">#RandRange(0,9)#</cfloop></cfoutput>

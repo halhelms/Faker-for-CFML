@@ -1,0 +1,3 @@
+<cfset orgs = ["gmail","adobe","apple","microsoft","ibm","starbucks","usda","usps","abc","bcd","cde","def","efg","fgh","ghi","hij","ijk","jkl","klm","lmn","mno","nop","opq","pqr","qrs","rst","stu","tuv","uvw","vwx","wxy","xyz"]>
+
+<cfset domains = [".com",".org",".edu",".net",".me",".info",".us",".ws",".ca",".asia",".biz",".mobi"]><cfoutput><cf_first_name>.<cf_last_name>@#orgs[RandRange(1, ArrayLen(orgs))]##domains[RandRange(1, ArrayLen(domains))]#</cfoutput>
